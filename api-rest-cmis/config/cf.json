@@ -1,0 +1,16 @@
+{
+    "_comment": "REPOSITORY DATA DEV",
+    
+    "uaa_url":"https://<URL>/oauth/token?grant_type=client_credentials",
+    "uaa_auth":"Basic c2ItMmYwOGM1NTktOWM2M*****************************",
+    
+    "cmis_session_url": "https://api-sdm-di.cfapps.eu10.hana.ondemand.com/browser",
+    
+    "cmis_repo": "65c14**************",
+    "id_repo": "d0ec*****************",
+    
+    
+    "cmis_url1": "/root?objectId=",
+    "cmis_url2": "&cmisselector=content"
+
+}
