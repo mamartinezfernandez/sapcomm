@@ -15,7 +15,7 @@ def String customFunc(String arg1, MappingContext context){
   
     String aa = a
   
-    return a
+    return aa
    
   } 
 }
