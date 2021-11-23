@@ -12,13 +12,16 @@ def String customFunc(String arg1, MappingContext context){
     int ind = xx.indexOf(".")
     ind = ind+1
     String xxs = xx.substring(ind)
+    int xxsSize = xxs.size()
+    String xxl = ''
+    float x
     
-    if(xxs.length >= 3){
-      String xxl = xxs.substring(2)
+    if(xxsSize >= 3){
+      xxl = xxs.substring(2)
     }
     
     if(xxl >= '5' && xxl <= '9'){
-      float x = Float.parseFloat(xx)
+      x = Float.parseFloat(xx)
       x = x + 0.001
       x = x.round(2)
     }
