@@ -6,7 +6,7 @@ import groovy.xml.*;
 
 def String customFunc(String arg1, MappingContext context){
   
-  if(arg1 != '' && arg1 != null{
+  if(arg1 != '' && arg1 != null){
     
     String xx = arg1
   
