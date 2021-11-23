@@ -25,6 +25,10 @@ def String customFunc(String arg1, MappingContext context){
       x = x + 0.001
       x = x.round(2)
     }
+    else{
+      x = Float.parseFloat(xx)
+      x = x.round(2)
+    }
     
     String val1 = x
     return val1
