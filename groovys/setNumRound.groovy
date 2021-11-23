@@ -10,7 +10,7 @@ def String customFunc(String arg1, MappingContext context){
     
     String xx = arg1
   
-    float x = Float.parseFloat(xx);
+    float x = Float.parseFloat(xx)
     float a = x.round(2)
   
     String aa = a
