@@ -22,10 +22,10 @@ def String customFunc(String arg1, MappingContext context){
                 cmTenderItem.itemType.text() == 'Sale' && cmTenderItem.currency.text() == curr1        
             }
             if(value2==null){
-                println 'no exists'
+                return 'no exists'
             }
             else{
-                println exchangeRate1
+                return exchangeRate1
             }
         }
 
